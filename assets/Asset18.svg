@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 358 74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        filter: url(#drop-shadow-1);
+        stroke: #b3b3b3;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="-3"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Mobile">
+    <path id="Footer_Line" data-name="Footer Line" class="cls-1" d="M8.94,19.89h113.66M130.06,27.89c6.52,19,19.61,32.42,43.32,33,23.92.58,36.8-13,42.39-33M130.06,27.89s-1.86-7-7.45-8M222.98,20.92c-5.59,1-7.45,8-7.45,8M222.29,20.89h113.66"/>
+  </g>
+</svg>

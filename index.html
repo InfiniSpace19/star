@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<!-- Author: Mohamad Kahil
+Student No. 041078349
+Course: CST8318 
+Assignment 5 -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Star19 - Home Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="top-nav">
+          <nav>
+            <div class="logo">
+              <img src="assets/logo.jpg" alt="Star19 Logo" />
+            </div>
+            <ul class="nav-list">
+              <li>
+                <a href="index.html"
+                  ><img src="assets/Asset37.svg" alt="Home" />HOME</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="assets/Asset38grey.svg"
+                    alt="Services"
+                  />SERVICES</a
+                >
+              </li>
+              <li>
+                <a href="features.html"
+                  ><img
+                    src="assets/Asset39grey.svg"
+                    alt="Features"
+                  />FEATURES</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img src="assets/Asset40grey.svg" alt="User Profile" />USER
+                  PROFILE</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="top-nav-768">
+          <nav>
+            <div class="logo">
+              <img src="assets/logo.jpg" alt="Star19 Logo" />
+            </div>
+            <ul class="nav-list">
+              <li>
+                <a href="index.html"
+                  ><img src="assets/Asset37.svg" alt="Home"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="assets/Asset38grey.svg" alt="Services"
+                /></a>
+              </li>
+              <li>
+                <a href="features.html"
+                  ><img src="assets/Asset39grey.svg" alt="Features"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="assets/Asset40grey.svg" alt="User Profile"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="top-nav-480">
+          <a href="#" class="mobile">&#9776;</a>
+          <nav>
+            <div class="logo">
+              <img src="assets/logo.jpg" alt="Star19 Logo" />
+            </div>
+          </nav>
+          <div id="h-menu" class="menu">
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="mid-separator"></div>
+      <div class="top-banner">
+        <article class="site-info">
+          <p class="prompt-regular">
+            Offering a variety of consultancy services in risk controls, revenue
+            assurance, fraud Management, billing and customer relationship
+            management systems.
+          </p>
+        </article>
+      </div>
+      <div class="mid-separator"></div>
+      <div class="bottom-banner">
+        <p class="prompt-bold-italic">Customized Services For Your Needs</p>
+      </div>
+      <main>
+        <div class="gallery">
+          <div class="gallery-container">
+            <img src="assets/prevdisabled.svg" alt="Previous" id="prevImg" />
+            <div class="card gallery-item gallery-item-1" data-index="1">
+              <img
+              alt="RA"
+              src="assets/Asset21.jpg"
+              title="Revenue Assurance"            
+            />
+              <h2>Revenue Assurance</h2>
+            </div>
+            <div class="card gallery-item gallery-item-2" data-index="2">
+              <img
+                alt="File Organizer"
+                src="assets/Asset19.jpg"
+                title="File Organizer"               
+              />
+              <h2>Quality Assurance</h2>
+            </div>
+            <div class="card gallery-item gallery-item-3" data-index="3">            
+              <a href="features.html" style="text-decoration: none; color: black;"><img
+                alt="notebooks"
+                src="assets/Asset18.jpg"
+                title="Paper Notebook"
+              />
+              <h2>Business Analysis</h2></a>
+            </div>
+            <div class="card gallery-item gallery-item-4" data-index="4">
+              <img
+                alt="FM"
+                src="assets/Asset22.jpg"
+                title="Fraud Management"               
+              />
+              <h2>Fraud Management</h2>
+            </div>
+            <div class="card gallery-item gallery-item-5" data-index="5">
+              <img
+                alt="FM"
+                src="assets/Asset22.jpg"
+                title="ERP Analysis"
+              />
+              <h2>ERP Analysis</h2>
+            </div>
+            <img src="assets/next.svg" alt="Next" id="nextImg" />
+            <!-- <div class="gallery-controls"></div> -->
+          </div>
+        </div>
+
+        <div class="mid-separator"></div>
+
+        <!-- Automation Section -->
+        <div class="hot-deals-header">
+          <h2 class="prompt-bold">Automation of Risk Controls</h2>
+        </div>
+        <div class="hot-deals-content">
+          <p class="prompt-regular" id="autoRisk1">
+            Have you considered automating your internal controls? Contact us to
+            know more. You may be able to save a lot on day to day efforts!
+          </p>
+          <p class="prompt-regular" id="autoRisk2">
+            Automation of Risk Controls allows to streamline and enhance the
+            processes of identifying, assessing, managing, and monitoring risks
+            within your organization. The automated tools gather information
+            from various sources, prioritize critical risks, and recommend
+            strategies to mitigate or handle them effectively. By embracing
+            automation, businesses can achieve several benefits:
+            <strong>Efficiency, Accuracy, Assurance.</strong>
+            <button id="btn-moreinfo">More Info</button>
+          </p>
+          <br />
+          <p class="prompt-light-italic" id="stayID">Stay Connected with us:</p>
+          <div class="social">
+            <img src="assets/twitter.svg" alt="twitter" />
+            <img src="assets/facebook.svg" alt="facebook" />
+            <img src="assets/youtube.svg" alt="YouTube" />
+            <img src="assets/linkedin.svg" alt="Linkedin" />
+          </div>
+        </div>
+        <div class="last-separator"></div>
+      </main>
+      <footer class="original-footer">
+        Home | Services | Your List | About Us | Contact Us
+      </footer>
+      <footer class="responsive-footer-480">
+        <div class="footer-container">
+          <nav>
+            <ul class="nav-list" id="footer-nav">
+              <li>
+                <a href="index.html"
+                  ><img src="assets/Asset37.svg" alt="Home"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="assets/Asset38grey.svg" alt="Services"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="assets/Asset17grey.svg" alt="Add Service"
+                /></a>
+              </li>
+              <li>
+                <a href="features.html"
+                  ><img src="assets/Asset39grey.svg" alt="Features"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="assets/Asset40grey.svg" alt="User Profile"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+
+    <script async src="js/assign5.js"></script>
+  </body>
+</html>

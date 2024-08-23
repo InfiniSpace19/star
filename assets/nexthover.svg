@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 55 55">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d7c8a;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #61a9ba;
+      }
+
+      .cls-3 {
+        filter: url(#drop-shadow-1);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Legend">
+    <g class="cls-3">
+      <g>
+        <path class="cls-2" d="M16.08,12.34c-3.47,2.11-5.78,5.92-5.78,10.27s2.31,8.15,5.78,10.26l1.23-2.2V14.54l-1.23-2.2Z"/>
+        <path class="cls-2" d="M16.08,12.34l1.23,2.2,13.97,8.07-13.97,8.06-1.23,2.2c1.82,1.1,3.94,1.74,6.22,1.74,6.62,0,12-5.38,12-12s-5.38-12-12-12c-2.28,0-4.4.63-6.22,1.73Z"/>
+        <polygon class="cls-1" points="17.31 14.54 17.31 30.67 31.28 22.61 17.31 14.54"/>
+      </g>
+    </g>
+  </g>
+</svg>

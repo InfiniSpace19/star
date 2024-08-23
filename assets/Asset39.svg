@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.5 51.56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d7c8a;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Mobile">
+    <path id="Reports_Icon" data-name="Reports Icon" class="cls-1" d="M11.99,51.06H.5v-26.05h11.49v26.05ZM30,11.99h-11.49v38.31h11.49V11.99ZM48,.5h-11.49v49.8h11.49V.5Z"/>
+  </g>
+</svg>

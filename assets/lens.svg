@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.7 32.69">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d7c8a;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Desktop">
+    <g id="Lens_Icon" data-name="Lens Icon">
+      <circle class="cls-1" cx="11.61" cy="11.61" r="11.11"/>
+      <rect class="cls-1" x="23.24" y="16.74" width="7.22" height="15.2" transform="translate(-9.05 29.32) rotate(-50.08)"/>
+    </g>
+  </g>
+</svg>

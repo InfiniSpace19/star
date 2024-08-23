@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.64 47.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d7c8a;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Mobile">
+    <path id="Services_Icon" data-name="Services Icon" class="cls-1" d="M22.15,10.78c0,5.68-4.6,10.28-10.28,10.28S1.58,16.46,1.58,10.78,6.19.5,11.87.5s10.28,4.6,10.28,10.28ZM7.27,27.02v8.93M6.72,35.95h12.18M14.3,31.08l4.87,4.87M35,28.63l-6.62,18.26-11.41-4.14.6-1.66H5.25c-2.62,0-4.75-2.13-4.75-4.75v-9.44c0-2.62,2.13-4.75,4.75-4.75h14.31c1.75,0,3.28.95,4.11,2.37l11.33,4.11Z"/>
+  </g>
+</svg>
